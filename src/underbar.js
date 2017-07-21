@@ -7,6 +7,7 @@
   // seem very useful, but remember it--if a function needs to provide an
   // iterator when the user does not pass one in, this will be handy.
   _.identity = function(val) {
+    return val;
   };
 
   /**
@@ -40,7 +41,7 @@
     if (n > array.length) {
       return array;
     } else {
-    return n === undefined ? array[array.length - 1] : array.slice(array.length - n, array.length);
+      return n === undefined ? array[array.length - 1] : array.slice(array.length - n, array.length);
     }
   };
 
