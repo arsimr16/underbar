@@ -111,12 +111,12 @@
   _.uniq = function(array) {
     var result = [];
 
-    _.each(array, function(item, i) {
-      if(!result[item]) {
-        result.push(item);
+    _.each(array, function(item) {
+      if (!result.includes(item)) {
+        result.push(item)
       }
     });
-
+    
     return result;
   };
 
