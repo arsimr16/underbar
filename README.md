@@ -1,2 +1,23 @@
-#underbar
-This is a project I completed as a student at [hackreactor](http://hackreactor.com). This project was worked on with a pair.
+# underbar
+This is a project I completed as part of the precourse material for [hackreactor](http://hackreactor.com).  For this project I reimplemented the following functions from [underscore.js](http://underscorejs.org) without using built-in JS functions (forEach, map, reduce, filter, etc.):
+* identity
+* first
+* last
+* each
+* indexOf
+* filter
+* reject
+* uniq
+* map
+* pluck
+* reduce
+* contains
+* every
+* some
+* extend
+* defaults
+* once
+* memoize
+* delay
+* shuffle
+* invoke
